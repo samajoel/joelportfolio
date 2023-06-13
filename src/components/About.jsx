@@ -18,11 +18,14 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              Reliable team member. Dedicated to business success. Passionate
+              about data and what you can achieve with it. Systems Analysis
+              Student, Computer Technician. Experience in the area of
+              ​​cryptocurrency mining, specifically Bitcoin, working with
+              different types of ASIC miners and taking control so that the
+              appropriate mining conditions are met as well as preventive
+              maintenance. Now working in Web Development, focused on finding
+              solutions and bringing value.
             </p>
           </div>
         </div>

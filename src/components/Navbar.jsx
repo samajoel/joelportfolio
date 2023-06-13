@@ -24,35 +24,34 @@ const Navbar = () => {
         <img src={Logo1} alt="Logo Image" style={{ width: "50px" }} />
       </div>
       {/* Menu */}
-      <div className="hidden md:flex ml-6">
-        <ul className="hidden md:flex">
-          <li>
-            <Link to="home" spy={true} smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="about" spy={true} smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" spy={true} smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="work" spy={true} smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" spy={true} smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+
+      <ul className="hidden md:flex">
+        <li>
+          <Link to="home" spy={true} smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" spy={true} smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" spy={true} smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
+      </ul>
       {/* Hamburguer */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
