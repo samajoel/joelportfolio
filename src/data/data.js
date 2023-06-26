@@ -1,11 +1,12 @@
 import Jstodo from "../assets/jstodoapp.png";
 import ReactStore from "../assets/littlestore.png";
+import Cn from "../assets/cnconstrucciones.png";
 
 export const data = [
   {
     id: 1,
     name: "Little React JS Application",
-    image: ReactStore,
+    image: Cn,
     github: "https://github.com/samajoel/CNConstrucciones/tree/main/src",
     live: "https://cn-construcciones.vercel.app/",
   },
