@@ -59,7 +59,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-This portfolio can be used as a template for your own personal site. Feel free to fork the repository and customize it to fit your needs. If you do, please consider giving credit by linking back to this original repository.
+This portfolio can be used as a template for your own personal site. Feel free to fork the repository and customize it to fit your needs.
 
 ## Contributing
 
